@@ -8,7 +8,7 @@ def loader():
 class MySkinInstaller(ExtensionInstaller):
     def __init__(self):
         super(MySkinInstaller, self).__init__(
-            version="0.1",
+            version="0.2",
             name='vds-bootstrap',
             description='vds vds-bootstrap skin, not to be confused with the other one(s) out there.',
             author="Vince Skahan",
